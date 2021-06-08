@@ -1,0 +1,10 @@
+{
+  "name":"vue-cli-plugin-ltbacksys",
+  "version":"1.0.0",
+  "description": "创建一个标准的大数据前端项目",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitofrenlu/demoCli"
+  },
+  "homepage":"https://github.com/gitofrenlu/demoCli"
+}
