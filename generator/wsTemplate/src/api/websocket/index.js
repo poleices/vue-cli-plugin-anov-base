@@ -1,8 +1,6 @@
 import WS from './ws'
-// import store from '@/store'
-// import extend from 'extend'
-// import { util } from 'dtc'
-const wsUrl = 'ws://172.16.30.134:8005/' // 可改为真实的websocket 接口
+
+const wsUrl = 'ws://172.16.xx.xx:8005/' // 可改为真实的websocket 接口
 const wsConnections = new Map()
 const STATUS = {
   SUCCESS: 0,
@@ -72,8 +70,5 @@ const destroy = (key) => {
 const protocal = window.location.protocol == 'http:' ? 'ws' : 'wss'
 const BASE_URL = window.location.port ? `${protocal}://${window.location.hostname}:${window.location.port}/ws/common/` : `${protocal}://${window.location.hostname}/ws/common/`
 
-// if (process.env.NODE_ENV !== 'development') {
-//   BASE_URL = ''
-// }
 
 export { init, destroy, BASE_URL, STATUS }

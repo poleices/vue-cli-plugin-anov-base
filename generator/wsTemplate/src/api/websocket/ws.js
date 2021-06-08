@@ -1,6 +1,6 @@
 /**
  * @description webscoket 简单封装
- * @author zzg
+ * @author rl
  * @date 2019-05-08
  * @class WS
  */

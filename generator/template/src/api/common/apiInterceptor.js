@@ -25,7 +25,7 @@ export default class ApiInterceptor {
    * @param {*} data 数据obj
    * @param {*} ifNew 是否按新接口规范调用
    */
-  afterIntercept(method = 'get', url, data, ifNew = false) {
+  afterIntercept(method = 'get', url, data, ifNew = true) {
     //  使用新接口规范调用的接口
     if (ifNew) {
       return new Promise((resolve, reject) => {

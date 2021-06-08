@@ -18,8 +18,8 @@ axios.interceptors.request.use(
   config => {
     // 设置请求格式
     // 设置token
-    const storageHandler = new StorageHandler()
-    config.headers['Authorization'] = storageHandler.getLocalStorage('token')
+    // const storageHandler = new StorageHandler()
+    // config.headers['Authorization'] = storageHandler.getLocalStorage('token')
 
     // 是否需要签名
     if (SystemConfig.sign) {

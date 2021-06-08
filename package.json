@@ -6,5 +6,9 @@
     "type": "git",
     "url": "https://github.com/gitofrenlu/demoCli"
   },
-  "homepage":"https://github.com/gitofrenlu/demoCli"
+  "homepage":"https://github.com/gitofrenlu/demoCli",
+  "keywords": [
+    "vue",
+    "vue-cli"
+  ]
 }
