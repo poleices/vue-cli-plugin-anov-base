@@ -31,7 +31,8 @@ module.exports = pkg => {
         value:'mobile'
       },{
         name:'WX-miniProgram',
-        value:'miniProgram'
+        value:'miniProgram',
+        disabled:true
       }],
       default: 'web'
     },
@@ -39,6 +40,12 @@ module.exports = pkg => {
       name: 'UIType',
       type: 'list',
       message: '请选择UI模版',
+      when:(opt) =>{
+        if(opt.pageType === 'web'){
+          return true
+        }
+        return false
+      },
       choices:[{
         name:'element',
         value:'element'

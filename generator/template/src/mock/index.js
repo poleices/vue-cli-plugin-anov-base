@@ -30,7 +30,12 @@ const SUCCESS = {
 }
 
 Mock.mock(`${domain}/sys/global/projectList`, 'get', _req => {
-  return {}
+  return {
+    ...SUCCESS,
+    obj:{
+      ...obj
+    }
+  }
 })
 Mock.mock(/mockjs.com\/api\/model\/get-url\/info/, 'get', _req => {
 

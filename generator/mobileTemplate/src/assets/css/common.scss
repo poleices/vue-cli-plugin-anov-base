@@ -1,0 +1,88 @@
+// mobile only sytle
+html, body, button {
+  // visit the link for more infomation 
+  // https://stackoverflow.com/questions/46167604/ios-html-disable-double-tap-to-zoom/47131647#47131647
+  // https://developer.mozilla.org/zh-CN/docs/Web/CSS/touch-action
+  touch-action: manipulation;
+}
+// common style for mobile maybe suit for desktop by wuyax
+button, select {
+  border: none;
+  background: transparent;
+
+  appearance: none;
+}
+
+// rest input placeholder style
+::-webkit-input-placeholder {
+  color: #9a9a9a;
+}
+// aspectratio default style
+[aspectratio] {
+  position: relative;
+}
+
+[aspectratio]::before {
+  display: block;
+  width: 1px;
+  height: 0;
+  margin-left: -1px;
+  content: '';
+}
+
+[aspectratio-content] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+// add placeholder for select element
+// visit https://codepen.io/wuyax/pen/vYOyRKL for online demo
+select {
+  &.fack-placeholder {
+    background: transparent;
+
+    appearance: none;
+    &:required:invalid {
+      color: #7f7f7f;
+    }
+    option[value=''][disabled] {
+      display: none;
+    }
+    option {
+      color: black;
+    }
+  }
+}
+
+// the developer nedd to remove it
+.title {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.indent {
+  padding: 10px 0;
+  text-indent: 64px;
+}
+
+code {
+  margin: 0;
+  padding: 4px 16px;
+  border-radius: 6px;
+  color: #476582;
+  background-color: rgba(27, 31, 35, .05);
+  font-size: 28px;
+}
+
+q {
+  font-weight: bold;
+}
+
+a {
+  color: #42b983;
+}
