@@ -1,14 +1,19 @@
 {
-  "name":"vue-cli-plugin-ltbacksys",
-  "version":"1.0.0",
+  "name": "vue-cli-plugin-ltbacksys",
+  "version": "1.0.0",
   "description": "创建一个标准的大数据前端项目",
   "repository": {
     "type": "git",
     "url": "https://github.com/gitofrenlu/demoCli"
   },
-  "homepage":"https://github.com/gitofrenlu/demoCli",
+  "homepage": "https://github.com/gitofrenlu/demoCli",
   "keywords": [
     "vue",
     "vue-cli"
-  ]
+  ],
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3"
+  }
 }

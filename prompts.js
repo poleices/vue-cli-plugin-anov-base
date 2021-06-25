@@ -51,14 +51,22 @@ module.exports = pkg => {
         value:'element'
       },{
         name:'ant-design',
-        value:'ant'
+        value:'ant',
+        disabled:true
       }],
       default: 'element'
     },
     {
       type: 'confirm',
       name: 'useWSocket',
-      message: '是否需要websocket配置 ?'
+      message: '是否需要websocket配置 ?',
+      default:true
+    },
+    {
+      type: 'confirm',
+      name: 'usePermission',
+      message: '是否加载智慧树权限代码 ?',
+      default:false
     }
   ]
 
