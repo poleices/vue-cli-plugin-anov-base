@@ -21,15 +21,15 @@ module.exports = (api,options,rootOptions) => {
       "normalize.css": "7.0.0",
       "nprogress": "0.2.0",
       "path-to-regexp": "2.4.0",
-      "vue": "2.6.10",
-      "vue-router": "3.0.6",
-      "vuex": "3.1.0"
+      "vue": "^2.6.11",
+      "vue-router": "^3.2.0",
+      "vuex": "^3.4.0"
     })
     Object.assign(devDependencies,{
-      "@vue/cli-plugin-babel": "4.4.4",
-      "@vue/cli-plugin-eslint": "4.4.4",
+      "@vue/cli-plugin-babel": "^4.5.0",
+      "@vue/cli-plugin-eslint": "^4.5.0",
       "@vue/cli-plugin-unit-jest": "4.4.4",
-      "@vue/cli-service": "4.4.4",
+      "@vue/cli-service": "^4.5.0",
       "@vue/test-utils": "1.0.0-beta.29",
       "autoprefixer": "9.5.1",
       "babel-eslint": "10.1.0",
@@ -48,7 +48,7 @@ module.exports = (api,options,rootOptions) => {
       "serve-static": "1.13.2",
       "svg-sprite-loader": "4.1.3",
       "svgo": "1.2.2",
-      "vue-template-compiler": "2.6.10"
+      "vue-template-compiler": "^2.6.11"
     })
     
     api.render('./web-minisize-template',{
