@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-plugin-ltbacksys",
-  "version": "1.0.0",
-  "description": "创建一个标准的大数据前端项目",
+  "name": "vue-cli-plugin-anov-fe",
+  "version": "1.0.1",
+  "description": "generator for anov system",
   "repository": {
     "type": "git",
     "url": "https://github.com/gitofrenlu/demoCli"
