@@ -42,6 +42,9 @@
 
 #### 脚手架同样提供了vue ui方式进行可视化创建
 
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
-<source id="mp4" src="./img/vueui.mp4" type="video/mp4">
-</video>
+1. 控制台执行 vue ui 打开vue的ui创建模式
+2. 在插件中选择**添加插件** 并搜索 **vue-cli-plugin-anov-fe**，根据提示选择配置。
+3. 任务中直接执行serve
+
+<img src="./img/mov2.gif" alt="ui" width="800" height="400" />
+
