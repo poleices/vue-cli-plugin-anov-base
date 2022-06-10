@@ -1,12 +1,12 @@
 {
-  "name": "vue-cli-plugin-anov-fe",
-  "version": "1.0.1",
+  "name": "vue-cli-plugin-anov-base",
+  "version": "1.0.0",
   "description": "generator for anov system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitofrenlu/demoCli"
+    "url": "https://github.com/poleices/vue-cli-plugin-anov-base"
   },
-  "homepage": "https://github.com/gitofrenlu/demoCli",
+  "homepage": "https://github.com/poleices/vue-cli-plugin-anov-base",
   "keywords": [
     "vue",
     "vue-cli"
